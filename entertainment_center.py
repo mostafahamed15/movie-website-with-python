@@ -6,5 +6,8 @@ Rare_Exotic_Animals = media.Movie("Rare_Exotic_Animals", "The Rare and Exotic An
 africas_wild_west = media.Movie("africas_wild_west", "africas_wild_west","https://upload.wikimedia.org/wikipedia/commons/4/4f/NgoroNgoro_Crater%2C_Tanzania%2C_Africa.jpg","https://www.youtube.com/watch?v=zRt70jyj6tE" )
 paradise_found = media.Movie("paradise_found", "paradise_found","https://upload.wikimedia.org/wikipedia/commons/a/a1/Evening%2C_Nile_River%2C_Uganda.jpg","https://www.youtube.com/watch?v=GTlQcfYx8JQ" )
 great_white_shark = media.Movie("great_white_shark", "great_white_shark","https://upload.wikimedia.org/wikipedia/commons/3/31/Great_white_shark_south_africa.jpg","https://www.youtube.com/watch?v=zhSeXppv0jY" )
+# instances object from class movie with attribute definition
 movies = [creation, wild_russia, Rare_Exotic_Animals, africas_wild_west, paradise_found, great_white_shark]
+# this array of movies to display on website
 fresh_tomatoes.open_movies_page(movies)
+# this function from class fresh_tomatoes to open this movie as awebsite
